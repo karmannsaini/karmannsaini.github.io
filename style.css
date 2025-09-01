@@ -1,0 +1,39 @@
+body {
+  /*Font*/
+  
+  font-family: Rubik, sans-serif;
+
+  
+  
+  
+  background-color: white;
+}
+h1, h2, h3, h4, h5, h6, p, a, span{
+  color: black;
+  
+}
+
+p {
+  color: black;
+}
+
+
+
+.highlight {
+  color: green;
+  font-style: italic;
+}
+
+
+span{
+  color: green;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li::before {
+  content: "- ";
+  font-style: italic;
+}
