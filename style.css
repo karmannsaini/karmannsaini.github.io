@@ -2,7 +2,7 @@ body {
   /*Font*/
   
   font-family: Rubik, sans-serif;
-
+  font-size: 20pt;
   
   
   
@@ -31,14 +31,17 @@ span{
 
 ul {
   list-style-type: none;
+  font-size: larger;
 }
 
 li::before {
   content: "- ";
   font-style: italic;
+  
 }
 
-img {
-    max-width: 30%;
-    height: auto;
+.in_text_img {
+  max-width: 100%;
+  height: 2.0em;
+  vertical-align: middle;
 }
